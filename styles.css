@@ -2,11 +2,32 @@
    Float Practice
 ======================================== */
 
+.cats-right {
+  float: right;
+  background-color: gainsboro;
+  padding: 0.75rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 220px;
 
 
+}
+.cats-right figcaption {
+  text-align: center;
+  font-size: 80%;
+  font-style: italic;
+}
 
+.cats-left {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 300px;
+}
 
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
